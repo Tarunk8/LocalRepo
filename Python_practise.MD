@@ -1,5 +1,7 @@
-🚀 Python Practise Notes
+ #Python Practise Notes
+ 
 🧪 Basic Program
+ ```sh
 name = "munna"
 age = int(input("Enter your age: "))
 
@@ -8,6 +10,7 @@ if age >= 18:
     print("Eligible")
 else:
     print("Not Eligible")
+ ```
 🧪 Data Types
 Integer → 25, -10, 0
 Float → 3.99
