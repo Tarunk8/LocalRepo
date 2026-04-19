@@ -1,4 +1,4 @@
-🚀 Python Practise Notes
+# Python Practise Notes
 🧪 Basic Program
 name = "munna"
 age = int(input("Enter your age: "))
