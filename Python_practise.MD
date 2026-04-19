@@ -12,6 +12,7 @@ else:
     print("Not Eligible")
  ```
 🧪 Data Types
+ ```sh
 Integer → 25, -10, 0
 Float → 3.99
 String → "hello"
@@ -23,7 +24,9 @@ a = None
 
 print(type(old))
 print(type(a))
+ ```
 🧪 Operators
+ ```sh
 a = 10
 b = 5
 
@@ -34,15 +37,21 @@ print(a / b)
 print(a % b)
 print(a == b)
 print(a != b)
+ ```
 🧪 Input & Output
+ ```sh
 x = int(input("Enter first: "))
 y = int(input("Enter second: "))
 
 print("Sum =", x + y)
+ ```
 🧪 Area of Square
+ ```sh
 side = float(input("Enter side: "))
 print("Area =", side * side)
+ ```
 🧪 String Operations
+ ```sh
 text = "hey this is my first automation project"
 
 print(text[0:4])
@@ -51,6 +60,7 @@ print(text.endswith("project"))
 print(text.capitalize())
 print(text.replace("project", "task"))
 print(len(text))
+ ```
 🧪 If-Else
 age = int(input("Enter age: "))
 
