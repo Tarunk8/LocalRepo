@@ -248,3 +248,203 @@ if list1 == list1[::-1]:
 else:
     print("Not Palindrome")
  ```
+
+🔹 1. Variables & Data Types
+ ```sh
+age = 32
+old = True
+a = None
+
+print(type(old))
+print(type(a))
+
+ ```
+🔹 2. User Input
+ ```sh
+name = input("Name: ")
+age = int(input("Age: "))
+price = float(input("Price: "))
+
+print("My name is", name, "and I am", age, "years old")
+ ```
+🔹 3. Logical Operators
+ ```sh
+AND → both true
+OR → any true
+NOT → reverse
+ ```
+🔹 4. Conditional Statements
+ ```sh
+light = input("Light color: ")
+
+if light == "red":
+    print("Stop")
+elif light == "orange":
+    print("Look")
+elif light == "green":
+    print("Go")
+else:
+    print("Light is broken")
+ ```
+🔹 5. Marks Grading
+ ```sh
+marks = int(input("Marks: "))
+
+if marks >= 90:
+    print("A")
+elif marks >= 80:
+    print("B")
+elif marks >= 70:
+    print("C")
+else:
+    print("D")
+ ```
+🔹 6. Ternary Operator
+ ```sh
+food = input("Food: ")
+eat = "yes" if food == "cake" else "no"
+print(eat)
+ ```
+🔹 7. Strings
+ ```sh
+str1 = "apna"
+str2 = "college"
+print(str1 + str2)
+
+str = "apna college"
+print(str[0:7])
+print(str[-9:-1])
+String Functions
+str = "iam studying devops from apna college"
+
+print(str.endswith("ege"))
+print(str.capitalize())
+print(str.replace("devops", "Linux"))
+print(str.find("devops"))
+print(str.count("am"))
+ ```
+🔹 8. Lists
+ ```sh
+marks = [94.4, 87.5, 95.2]
+print(marks[0])
+List Methods
+list = [2, 3, 1]
+list.append(4)
+list.sort()
+list.reverse()
+list.insert(1, 5)
+list.pop(2)
+ ```
+🔹 9. Tuples
+ ```sh
+tup = (2, 3, 4)
+print(tup[0])
+print(tup.count(4))
+ ```
+🔹 10. Dictionary
+ ```sh
+info = {
+    "name": "Tarun",
+    "age": 35,
+    "subjects": ["Python", "Linux"]
+}
+
+print(info["name"])
+Nested Dictionary
+students = {
+    "name": "Tarun",
+    "subjects": {
+        "math": 95,
+        "chem": 98
+    }
+}
+
+print(students["subjects"]["chem"])
+ ```
+🔹 11. Sets
+ ```sh
+collection = {1, 2, 2, 3}
+print(collection)   # unique values only
+Operations
+set1 = {1,2,3}
+set2 = {2,3,4}
+
+print(set1.union(set2))
+print(set1.intersection(set2))
+ ```
+🔹 12. Loops
+ ```sh
+While Loop
+i = 1
+while i <= 5:
+    print(i)
+    i += 1
+For Loop
+for i in range(1, 6):
+    print(i)
+ ```
+🔹 13. Functions
+ ```sh
+def calc_sum(a, b):
+    return a + b
+
+print(calc_sum(5, 10))
+Average Function
+def calc_avg(a, b, c):
+    return (a + b + c) / 3
+ ```
+🔹 14. Recursion
+ ```sh
+def fact(n):
+    if n == 0 or n == 1:
+        return 1
+    return n * fact(n-1)
+
+print(fact(5))
+ ```
+🔹 15. File Handling
+ ```sh
+# Read file
+with open("demo.txt", "r") as f:
+    data = f.read()
+    print(data)
+
+# Write file
+with open("demo.txt", "w") as f:
+    f.write("Hello World")
+ ```
+🔹 16. Classes & Objects
+ ```sh
+class Student:
+    def __init__(self, name, marks):
+        self.name = name
+        self.marks = marks
+
+s1 = Student("Tarun", 90)
+print(s1.name, s1.marks)
+ ```
+🔹 17. OOP Concepts
+ ```sh
+Encapsulation → data + methods together
+Abstraction → hide implementation
+Inheritance → reuse code
+ ```
+🔹 18. Lambda, Map, Filter
+ ```sh
+# Lambda
+square = lambda x: x*x
+print(square(5))
+# Map
+l = [1,2,3]
+print(list(map(lambda x: x*x, l)))
+
+# Filter
+print(list(filter(lambda x: x>2, l)))
+ ```
+🔹 19. OS Module
+ ```sh
+import os
+
+os.mkdir("data_dir")
+print(os.listdir())
+ ```
